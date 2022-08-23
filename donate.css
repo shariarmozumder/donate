@@ -1,0 +1,226 @@
+/* google font  */
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins;
+    background-color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Top section css started  */
+.top-sec {
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-sec h1 {
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+}
+.top-sec p {
+    text-align: center;
+    color: white;
+    width: 600px;
+}
+#top-pera {
+    display: flex;
+    justify-content: center;
+}
+.btn1 {
+    width: 160px;
+    padding: 12px 10px;
+    background-color: #ff4757;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #ff4757;
+    margin: 20px 40%;
+    border-radius: 7px;
+    box-shadow: -1px -1px 8px #000;
+    cursor: pointer;
+}
+
+
+/* middle section started */
+.dnt-blog h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 100px 0 30px;
+}
+.dnt-blog p {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: rgb(101, 98, 98);
+}
+.donate-tk {
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    gap: 15px;
+}
+.donate-tk div {
+    width: 130px;
+    height: 80px;
+    color: #707070;
+    background-color: #d0cece2e;
+    color: #565555b4;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 40px;
+    border-radius: 5px;
+}
+#active {
+    background-color: #ff595949;
+    border: 3px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+.amount-input {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 15px;
+}
+#amount-input {
+    border: none;
+    text-align: center;
+    font-size: 18px;
+}
+hr {
+    width: 715px;
+    margin-bottom: 40px;
+}
+#btn-cntr {
+    display: flex;
+    justify-content: center;
+}
+.btn2 {
+    width: 160px;
+    padding: 12px 10px;
+    background-color: #ff4757;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/* middle section ended */
+
+/* Donate part started */
+.donate-plan {
+    margin: 100px;
+}
+.plan-flex {
+    display: flex;
+    gap: 20px;
+}
+.plan-flex div {
+    width: 350px;
+    height: 340px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.plan-flex p {
+    width: 320px;
+}
+#food {
+    background-color: #4F9DA61A;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+#shelter {
+    background-color: #FF59591A;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+#education {
+    background-color: #FFF4D6;
+    padding-top: 40px; 
+    box-sizing: border-box;
+}
+
+/* Donate part */
+.foodheading{
+    font-size: 35px;
+}
+.givefood{
+    display: flex;
+    margin: 100px;
+}
+.givefood img{
+    width: 80%;
+}
+/* Donate part End*/
+
+/* subscribe form started */
+form {
+    background-color: #FFF4D6;
+    width: 800px;
+    height: 200px;
+    margin: 0 20% 0 20%;
+    text-align: center;
+    padding-top: 85px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#email {
+    height: 48px;
+    width: 275px;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 5px 0 0 5px;
+}
+::placeholder {
+    font-size: 15px;
+    padding-left: 15px;
+}
+.btn3 {
+    width: 157px;
+    height: 50px;
+    margin-left: -6px;
+    padding: 12px 10px;
+    background-color: #e84393;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+/* subscribe form ended */
+
+/* footer started */
+footer {
+    background-color: #000;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+footer h2 {
+    color: #FF5959;
+    font-family: Lobster;
+    font-weight: 500;
+}
+footer small {
+    color: rgba(255, 255, 255, 0.642);
+}
+/* footer ended */
